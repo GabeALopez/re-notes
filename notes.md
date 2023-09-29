@@ -30,6 +30,21 @@ General Purpose:
 - stdout - file descriptor 1
 - stderror - file descriptor 2
 
+This type of casting is dangerous as it can interpret ascii and numbers as integers:
+int* ip = (int*)p; //Where p is a character array
+
+## GDB NOtes
+When first compiling the code use the following command:
+gcc -ggdb {fileName} -o {fileName output}
+
+commands:
+1. TUI enable
+2. break main
+3. start
+4. step - go one line
+5. next - go over a line
+6. continue - continue until break point
+
 # Linux Command Notes
 
 SCP command:
