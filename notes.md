@@ -29,3 +29,9 @@ General Purpose:
 - stdin - file descriptor 0
 - stdout - file descriptor 1
 - stderror - file descriptor 2
+
+# Linux Command Notes
+
+SCP command:
+- template: scp {file name} {Username}@{IP address}:{Directory} 
+- ex: scp file.txt remoteUsername@10.10.0.2:/remote/directory 
