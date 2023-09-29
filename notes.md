@@ -1,5 +1,4 @@
-# Main Notes
-## Registers Notes
+# Registers Notes
 Register Definitions:
 
 - EAX - Accumulator for operands and results
@@ -7,7 +6,6 @@ Register Definitions:
 - ECX - Counter for string and loop operations
 - EDX - I/O pointer
 - ESI - Source pointer for string operations
----
 - EDI - Destination pointers for string operations
 - ESP - Stack pointer
 - EBP - Pointer to data on the stack
@@ -17,7 +15,17 @@ String Registers:
 - ESI
 - EDI
 
-## C/C++ Notes
+General Purpose: 
+- EAX
+- EBX
+- ECX
+- EDX
+- ESI
+- EDI
+- EBP
+- ESP
+
+# C/C++ Notes
 - stdin - file descriptor 0
 - stdout - file descriptor 1
 - stderror - file descriptor 2
