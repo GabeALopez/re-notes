@@ -31,6 +31,7 @@ General Purpose:
 - stderror - file descriptor 2
 
 This type of casting is dangerous as it can interpret ascii and numbers as integers:
+
 int* ip = (int*)p; //Where p is a character array
 
 ## GDB NOtes
