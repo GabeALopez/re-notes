@@ -38,6 +38,11 @@ int* ip = (int*)p; //Where p is a character array
 When first compiling the code use the following command:
 gcc -ggdb {fileName} -o {fileName output}
 
+To set arguments:
+
+set args {input}
+ex: set args 25
+
 commands:
 1. TUI enable
 2. break main
