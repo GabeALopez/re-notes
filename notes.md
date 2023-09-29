@@ -33,5 +33,5 @@ General Purpose:
 # Linux Command Notes
 
 SCP command:
-- template: scp {file name} {Username}@{IP address}:{Directory} 
-- ex: scp file.txt remoteUsername@10.10.0.2:/remote/directory 
+- template: scp {file name} {Username}@{IP address}:{Directory} {location on local machine} 
+- ex: scp file.txt remoteUsername@10.10.0.2:/remote/directory ./ 
