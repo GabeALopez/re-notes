@@ -29,10 +29,18 @@ General Purpose:
 - stdin - file descriptor 0
 - stdout - file descriptor 1
 - stderror - file descriptor 2
-
+---
 This type of casting is dangerous as it can interpret ascii and numbers as integers:
 
 int* ip = (int*)p; //Where p is a character array
+
+- The code above was used to take a 20 byte string and converting it into 5 integers. 
+- 4 characters for were used in each section of the string to make the integer.
+---
+When hitting the 32 bit limit of a int the bits will invert a int value that is negative. 
+---
+
+
 
 ## GDB NOtes
 When first compiling the code use the following command:
