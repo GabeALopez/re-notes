@@ -41,10 +41,12 @@ int* ip = (int*)p; //Where p is a character array
 When hitting the 32 bit limit of a int the bits will invert a int value that is negative. 
 
 ---
+When causing a collision can input bytes directly in the arguement
+ex: ./col "`python -c "print '\xc8\xce\xc5\x06'*4+'\xcc\xce\xc5\x06'"`"
+---
 
 
-
-## GDB NOtes
+## GDB Notes
 When first compiling the code use the following command:
 gcc -ggdb {fileName} -o {fileName output}
 
