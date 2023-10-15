@@ -70,3 +70,9 @@ commands:
 SCP command:
 - template: scp {file name} {Username}@{IP address}:{Directory} {location on local machine} 
 - ex: scp file.txt remoteUsername@10.10.0.2:/remote/directory ./ 
+
+# IDA Notes
+
+How to set parameters to an agrument:
+
+Go to the Debugger / Process options... menu item and fill the test.txt argument in the Parameters field. 
